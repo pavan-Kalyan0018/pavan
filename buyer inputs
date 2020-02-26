@@ -1,0 +1,37 @@
+$2a$10$yx7fu.dDkJ/X8UU/8IEx7eAOM6EFqcSo/UkcElquw0KktFSOxOdW.
+
+
+{
+	
+	"username":"abcdef",
+     "password":"alex123",
+     "emailId":"pavan@gmail.com",
+     "mobileNumber":"+7653763",
+     "createdDate":"23-07-2019"
+
+}
+
+
+
+
+
+    "buyerID": 1,
+    "password": "$2a$10$jqwKujhaGls6AsxkgPQGgOI/GNv.Q1adwWWTyz.8/UK3b8ZAVfENy",
+    "username": "abcdef",
+    "emailId": "pavan@gmail.com",
+    "mobileNumber": "+7653763",
+    "createdDate": "22-30-2019",
+    "handler": {},
+    "hibernateLazyInitializer": {}
+}
+
+
+
+
+2.
+
+
+pass: 
+$2a$10$xygJYJ1it8RbQW3MwrY3aupkGphiJEMUcHfso7btyx/WR5w0Tn8U6
+
+
