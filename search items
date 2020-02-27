@@ -1,0 +1,19 @@
+@PostMapping("/serachby/{itemname}")
+	public List<Items> getByAllitemName(@PathVariable("itemname") String itemname)
+	{
+		return service.getByAllitemName(itemname);
+	}
+
+
+@Query(value="FROM Items WHERE lower(itemName) LIKE %:itemName%")
+	List<Items> getByitemName(@Param("itemName")String name);
+
+
+List<Items> getByAllitemName(String itemname);
+
+
+@Override
+	public List<Items> getByAllitemName(String itemname) {
+		
+		return itemsdao.getByitemName(itemname);
+		}
